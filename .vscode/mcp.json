@@ -1,0 +1,24 @@
+{
+	"servers": {
+		"Calculator-STDIO": {
+			"command": "/Users/vinithissal/Vinit/MCP/.venv/bin/python",
+			"args": [
+				"Getting_started/Scenario1/fastmcp_calculator.py"
+			],
+		},
+		"Calculator-HTTP": {
+			"command": "npx",
+			"args": [
+				"mcp-remote",
+				"http://localhost:8002/"
+			],
+
+		},
+        "FreeCodeCamp Feed - STDIO": {
+            "command": "/Users/vinithissal/Vinit/MCP/.venv/bin/python",
+            "args": [
+                "Getting_started/Scenario3/feed_mcp.py"
+            ],
+        }
+	}
+}
